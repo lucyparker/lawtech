@@ -1,0 +1,88 @@
+<!-- this is a html comment. -->
+<!-- comments let you make notes and explanations in your code, so it is easier to understand and share.-->
+
+<!-- the doctype tells the web browser that this is an html document,
+so the browser knows how to read and display it. -->
+<!DOCTYPE html>
+<html>
+  <!-- head section: contains information about the document, i.e.title -->
+  <head>
+    <!-- let's give the page a title, this will show in the browser tab -->
+    <title>Edinburgh Visitors' Guide</title>
+  </head>
+
+  <!-- body section: this is the visible content of the page -->
+  <body>
+    <!-- display a title at the top, in a h1 tag -->
+    <h1>Welcome to Edinburgh</h1>
+    <p>Welcome to my Edinburgh website, here you will find all sorts of information about the city.</p>
+    <!-- the first section of the page.. Its title belongs in an h2 tag,
+    because it is less "important" than the page title(whose title is in a h1 tag)-->
+    <h2>Edinburgh Facts</h2>
+    <!-- Text belongs in a paragraph tag, which begins <p> and ends </p>-->
+    <!-- Make text bold using the <strong> tag, or italic using the <em> tag.-->
+    <p>Edinburgh was founded a long time ago. Its castle is built on a volcano. Lots of buildings
+    in Edinburgh are very haunted, you can take a ghost tour. But remember, <strong>beware of malevolant spirits!</strong>
+    A very important thing to remember is that the bus costs &pound1.70 and <em>they don't give change</em>, so
+    make sure you've got the right money.</p>
+
+    <h2>Lists that I like</h2>
+    <!-- an unordered list is made with the <ul> tag, and each item is in a <li> list item tag.-->
+    <p>In no particular order, my favourite things about Edinburgh are:
+      <ul>
+        <li>The Fringe Festival</li>
+        <li>My flat</li>
+        <li>The Forth Bridge</li>
+      </ul>
+    </p>
+
+    <!-- an ordered list is made with the <ol> tag, and each item is in a <li> list item tag.-->
+    <p>And in order, my favourite places in Edinburgh are:
+      <ol>
+        <li>Edinburgh Castle</li>
+        <li>Pentland Hills</li>
+        <li>Elephant and Bagel</li>
+      </ol>
+
+    <h2>Colours in Edinburgh</h2>
+    <!-- for an element (a heading or paragraph) you can set the colour, background-color and border style-->
+    <p style="color:ForestGreen;">The Meadows are green.</p>
+    <p style="color:GoldenRod; background-color:DodgerBlue;">Portobello beach is gold and blue</p>
+    <p style="border:5px solid HotPink;">In the spring, the blossom is pink.</p>
+    <p style="border:2px dashed Maroon;">Lothian Buses are maroon. Here is some longer text, so you can see
+    how a border around a paragraph looks. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+    eu suscipit lacus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+    Nullam sit amet lobortis nulla. Etiam sed eros sit amet ipsum ultricies finibus. </p>
+
+    <h2>Links to Edinburgh Websites</h2>
+    <p>For more information about Edinburgh, try some of these websites.</p>
+    <!-- a hyperlink has the format <a href="website address">Text to display</a>-->
+    <p><a href="https://www.visitscotland.com/destinations-maps/edinburgh-lothians/">Visit Scotland</a> for ideas
+    places to stay, things to do and ideas for trips.</p>
+    <p><a href="https://www.timeout.com/edinburgh">Time Out</a> for information about events, restaurants,
+    theatres and nightlife.</p>
+    <p><a href="https://www.lothianbuses.co.uk/">Lothian Buses</a> for local transport routes, times and updates.</p>
+
+    <h2>Pictures of Edinburgh</h2>
+    <p>Here are some pictures of Edinburgh.</p>
+    <!-- basic image: src=name of the file, alt= alt text, a description/name of the image
+      width and height set the size-->
+    <p><img src="victoria-street-old-town.jpg" alt="Victoria Street" style="width:450px;height:450px;"></img></p>
+    <!-- you can also link to an online image, find the url by right-click > view image -->
+    <p><img src="https://d2i7eq829tbbje.cloudfront.net/medium/Edinburgh-01_P_129_63be76c5-5457-4ad0-9b28-d039adf0bfec"
+      alt="Edinburgh tour bus" style="width=750px;height=500px;"></img></p>
+    <!--gifs work the same way as images: find the gif, right-click > view image and copy the url-->
+    <p>You can also include gifs!</p>
+    <p><img src="https://media0.giphy.com/media/3o7bu8LNPDbmXMhAys/giphy.gif" alt="razmatazz gif"
+      style="width:480px;height:270px"></img</p>
+
+    <h2>Videos of Edinburgh</h2>
+    <!-- it's really easy to embed a video in your site. Go to the video,
+    click share, embed, choose options and then copy and paste the code.-->
+    <p>Here are some videos of Edinburgh from YouTube</p>
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/UoeWkt9lhpw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/SRNyfBRhq0A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+    <p>And one from Vimeo.</p>
+    <p><iframe src="https://player.vimeo.com/video/132450105" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+  </body>
+</html>
